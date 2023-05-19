@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-color: beige;
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: darkgrey;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: darkgrey;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: burlywood;
+    transition: .4s;
+}
+content{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+h1{
+    font-size: 50px;
+    color: darkgrey;
+    margin: 20px 0px 20px;
+}
+h3{
+    color: brown;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: brown;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover.shape{
+    bottom: 40px;
+}
+.images:hover.girl{
+    left: 45%;
+}
+.intro{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: darkgrey;
+}
+.intro img{
+    height: auto;
+    width: 430px;
+}
+.intro-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro-text h2{
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.intro-text h5{
+    color: brown;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.intro-text p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.featprojects{
+    background: beige;
+    width: 100%;
+    padding: 100px 0px;
+}
+.projects{
+    color: darkgrey;
+    font-size: 25px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.boxreg{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: darkgray;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.boxreg h5{
+    color: white;
+    margin-bottom: 5px;
+}
+.card p{
+    color: brown;
+    line-height: 27px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: brown;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 4s;
+}
+.card button:hover{
+    background-color: transparent;
+    border: 20px solid black;
+    cursor: pointer;
+}
+.boxweb{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: darkgray;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.boxweb h5{
+    color: white;
+    margin-bottom: 5px;
+}
+.card1 p{
+    color: brown;
+    line-height: 27px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.card1 .button{
+    background-color: brown;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 4s;
+}
+.card1 button:hover{
+    background-color: transparent;
+    border: 20px solid black;
+    cursor: pointer;
+}
+.skills{
+    background: darkgrey;
+    width: 100%;
+    padding: 100px 0px;
+}
+.skill{
+    color: brown;
+    font-size: 25px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.boxrelated{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: beige;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.boxrelated h5{
+    color: brown;
+    margin-bottom: 5px;
+}
+.card2 p{
+    color: darkgrey;
+    line-height: 27px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.card2 .button{
+    background-color: brown;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 4s;
+}
+.card2 button:hover{
+    background-color: transparent;
+    border: 20px solid brown;
+    cursor: pointer;
+}
+.boxnotrelated{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: beige;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.boxnotrelated h5{
+    color: brown;
+    margin-bottom: 5px;
+}
+.card3 p{
+    color: darkgrey;
+    line-height: 27px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.card3 .button{
+    background-color: brown;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 4s;
+}
+.card3 .button:hover{
+    background-color: transparent;
+    border: 20px solid brown;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
