@@ -1,36 +1,54 @@
-.mh-skills .mh-professional-skill{
-    padding-right: 60px;
-    color: rebeccapurple;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.mh-skills .mh-professional-skill h3{
-    font-size: 30px;
-   line-height: 40px;
-   text-align: center;
-   font-weight: 400;
-   margin-bottom: 60px;
-   font-family: 'Poppins', sans-serif;
+body h2{
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+    text-align: center;
+    color: brown;
+    
 }
-.mh-professional-skills{
-    padding-left: 20%;
+body p{
+    letter-spacing: .5px;
+    color: darkgrey;
 }
-.mh-professional-skills h3{
-    font-size: 30px;
-   line-height: 40px;
-   text-align: center;
-   font-weight: 400;
-   margin-bottom: 60px;
-   font-family: 'Poppins', sans-serif;
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-.mh-professional-progress li{
-    display: inline-block;
-    margin: 0 auto;
-    float: none;
-    width: 48%;
-    margin-bottom: 30px;
-    text-align: center
+.container .progress-container{
+    margin-bottom: 25px;
 }
-.mh-progress{
-    margin-bottom: 10px;
-    font:900 1.14285/1;
-    color: black;
+.container .progress-container h4{
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+    color: darkgrey;
+}
+.container .progress-container .progress-bar{
+    position: relative;
+    width: 1000px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: darkgrey;
+    box-shadow: 3px 4px 5px 0px rgba(204, 185, 185/.75);
+}
+.container .progress-container .progress-bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: darkgrey;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(90deg, brown 50%,brown 100%);
+    transition: width .5s linear;
 }

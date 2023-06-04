@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 section{
     padding: 40px 15px;
@@ -20,14 +20,14 @@ section{
 }
 .contact-form h1{
     font-size: 80px;
-    color: darkgrey;
+    color: brown;
 }
 span{
-    color: brown;
+    color: darkgrey;
 
 }
 .contact-form p{
-    color: darkgrey;
+    color: brown;
     letter-spacing: 1px;
     line-height: 26px;
     font-size: 1.1rem;
@@ -69,6 +69,9 @@ form textarea{
     border: 2px;
     background: transparent;
     transform: scale(1.1);
+}
+.contact action{
+    color: brown;
 }
 
     
