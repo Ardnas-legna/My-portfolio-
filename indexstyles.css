@@ -89,7 +89,6 @@ h4{
     left: 50%;
     bottom: 0;
     transform: translate(-50%);
-    transition: bottom 1s, left 1s;
 }
 .images:hover.shape{
     bottom: 40px;
@@ -187,7 +186,7 @@ h4{
 }
 .card button:hover{
     background-color: transparent;
-    border: 20px solid black;
+    border: 20px solid brown;
     cursor: pointer;
 }
 .boxweb{
@@ -223,7 +222,7 @@ h4{
 }
 .card1 button:hover{
     background-color: transparent;
-    border: 20px solid black;
+    border: 20px solid brown;
     cursor: pointer;
 }
 .skills{

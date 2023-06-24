@@ -1,3 +1,12 @@
+<?php
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="portfolio";
+$conn=new mysqli($servername,$username,$password,$dbname);
+$query="SELECT * FROM projects";
+$result=mysqli_query($conn,$query);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -36,7 +45,7 @@
                 <img src="downloadd.jpg">
                 <div class="info">
                     <h2>Cartoon</h2>
-                    <p>this is about so so so so so</p>
+                    <p>This is an animated sitcom which will be produced by Warner Bros.</p>
                 </div>
             </div>
             <div class="navigation">
@@ -78,6 +87,24 @@
             </div>
         </div>
 
+        <div>
+            <table>
+                <tr>
+                    <td>Project Name</td>
+                    <td>Project Completion</td>
+                </tr>
+                <tr>
+                    <?php
+                    while($row=mysqli_fetch_assoc($result)){
+                    ?>
+                    <td><?php echo $row['projectName'];?></td>
+                    <td><?php echo $row['projectCompletion'];?></td>
+                    </tr>
+                    <?php
+                    }
+                    ?>
+            </table>
+        </div>
         <script src="projectssjs.js"></script>
     </body>
 </html>

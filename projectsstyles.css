@@ -157,5 +157,5 @@
     text-align: center;
     border-radius: 30px;
     background: linear-gradient(90deg, brown 50%,brown 100%);
-    transition: width .5s linear;
+    transition: width 1.0s linear;
 }
